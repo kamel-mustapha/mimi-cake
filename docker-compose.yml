@@ -1,0 +1,10 @@
+version: "3"
+services:
+  web:
+    container_name: main
+    build: ./backend/
+    restart: always
+    ports:
+      - 80:8000
+    volumes:
+      - ./backend/:/code/

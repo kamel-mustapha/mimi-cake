@@ -1,0 +1,54 @@
+{% load static %}
+<header class="text-gray-400 bg-gray-900 body-font" id="navbar">
+  <nav class="bg-gray-100">
+    <div class="max-w-6xl mx-aut px-5">
+      <div class="flex justify-between">
+        <div class="flex space-x-4">
+          <div>
+            <a href="/" class="flex items-center py-5 px-5 text-gray-700 hover:text-gray-900">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-10 h-10 text-white p-2 bg-red-500 rounded-full"
+                viewBox="0 0 24 24"
+              >
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+              </svg>
+              <span class="font-bold text-xl ml-3">Mimi's Cakes</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hidden mx-left md:flex items-center space-x-1">
+          <a href="#home" class="round py-3 px-3 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Accueil</a>
+          <!-- <a href="#features" class="round py-3 px-3 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Features</a> -->
+          <a href="#products" class="round py-3 px-3 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Créations</a>
+          <a href="#gallery" class="round py-3 px-3 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Galleries</a>
+          <a href="#testimonials" class="round py-3 px-3 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Avis</a>
+          <a href="#contact" class="round py-3 px-3 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Contact</a>
+        </div>
+
+        <div class="md:hidden flex items-center">
+          <button class="mobile-menu-button">
+            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="mobile-menu hidden md:hidden">
+      <a href="#home" class="block py-2 px-4 text-gray-700 hover:bg-gray-200">Home</a>
+      <a href="#features" class="block py-2 px-4 text-gray-700 hover:bg-gray-200">Features</a>
+      <a href="#products" class="block py-2 px-4 text-gray-700 hover:bg-gray-200">Cakes</a>
+      <a href="#gallery" class="block py-2 px-4 text-gray-700 hover:bg-gray-200">Gallery</a>
+      <a href="#testimonials" class="block py-2 px-4 text-gray-700 hover:bg-gray-200">Reviews</a>
+      <a href="#contact" class="block py-2 px-4 text-gray-700 hover:bg-gray-200">Contact</a>
+    </div>
+  </nav>
+</header>
